@@ -1,7 +1,5 @@
 module Payola
   class Engine < ::Rails::Engine
-    include Payola::Services::InvoiceBehavior
-    include Payola::InvoicePaid
     isolate_namespace Payola
     engine_name 'payola'
 
