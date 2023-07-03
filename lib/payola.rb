@@ -6,6 +6,8 @@ require 'jquery-rails'
 
 module Payola
 
+
+
   DEFAULT_EMAILS = {
     receipt:       [ 'payola.sale.finished', 'Payola::ReceiptMailer', :receipt ],
     refund:        [ 'charge.refunded',      'Payola::ReceiptMailer', :refund  ],
